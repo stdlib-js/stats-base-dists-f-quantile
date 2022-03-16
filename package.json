@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-f-quantile",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "F distribution quantile function.",
   "license": "Apache-2.0",
   "author": {
