@@ -30,10 +30,14 @@ The [quantile function][quantile-function] for a [F][f-distribution] random vari
 
 <!-- <equation class="equation" label="eq:f_quantile_function" align="center" raw="Q(p;d_1,d_2) = \,\inf\left\{ x\in [0,+\infty) : p \le F(x;d_1,d_2) \right\}" alt="Quantile function for an F distribution."> -->
 
-<div class="equation" align="center" data-raw-text="Q(p;d_1,d_2) = \,\inf\left\{ x\in [0,+\infty) : p \le F(x;d_1,d_2) \right\}" data-equation="eq:f_quantile_function">
+```math
+Q(p;d_1,d_2) = \,\inf\left\{ x\in [0,+\infty) : p \le F(x;d_1,d_2) \right\}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="Q(p;d_1,d_2) = \,\inf\left\{ x\in [0,+\infty) : p \le F(x;d_1,d_2) \right\}" data-equation="eq:f_quantile_function">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/stats/base/dists/f/quantile/docs/img/equation_f_quantile_function.svg" alt="Quantile function for an F distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -235,7 +239,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
