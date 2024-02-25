@@ -65,13 +65,18 @@ for `0 <= p < 1`, where `d1` is the numerator degrees of freedom, `d2` is the de
 ## Usage
 
 ```javascript
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-f-quantile/tags). For example,
+
+```javascript
 import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@v0.2.1-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@deno/mod.js';
 ```
 
 #### quantile( p, d1, d2 )
@@ -158,7 +163,7 @@ y = myquantile( 0.8 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@v0.2.1-deno/mod.js';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@deno/mod.js';
 
 var d1;
 var d2;
