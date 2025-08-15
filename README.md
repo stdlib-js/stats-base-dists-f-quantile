@@ -58,20 +58,32 @@ for `0 <= p < 1`, where `d1` is the numerator degrees of freedom, `d2` is the de
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-f-quantile
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@esm/index.mjs';
+var quantile = require( '@stdlib/stats-base-dists-f-quantile' );
 ```
 
 #### quantile( p, d1, d2 )
@@ -156,32 +168,19 @@ y = myquantile( 0.8 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
+```javascript
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var quantile = require( '@stdlib/stats-base-dists-f-quantile' );
 
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@esm/index.mjs';
+var opts = {
+    'dtype': 'float64'
+};
+var p = uniform( 10, 0.0, 1.0, opts );
+var d1 = uniform( 10, 0.0, 10.0, opts );
+var d2 = uniform( 10, 0.0, 10.0, opts );
 
-var d1;
-var d2;
-var p;
-var y;
-var i;
-
-for ( i = 0; i < 10; i++ ) {
-    p = randu();
-    d1 = randu() * 10.0;
-    d2 = randu() * 10.0;
-    y = quantile( p, d1, d2 );
-    console.log( 'p: %d, d1: %d, d2: %d, Q(p;d1,d2): %d', p.toFixed( 4 ), d1.toFixed( 4 ), d2.toFixed( 4 ), y.toFixed( 4 ) );
-}
-
-</script>
-</body>
-</html>
+logEachMap( 'p: %0.4f, d1: %0.4f, d2: %0.4f, Q(p;d1,d2): %0.4f', p, d1, d2, quantile );
 ```
 
 </section>
@@ -205,7 +204,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
