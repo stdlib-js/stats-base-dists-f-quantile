@@ -67,7 +67,7 @@ for `0 <= p < 1`, where `d1` is the numerator degrees of freedom, `d2` is the de
 To use in Observable,
 
 ```javascript
-quantile = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@umd/browser.js' )
+quantile = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@v0.2.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -79,7 +79,7 @@ var quantile = require( 'path/to/vendor/umd/stats-base-dists-f-quantile/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@v0.2.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -180,7 +180,7 @@ y = myquantile( 0.8 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-quantile@v0.2.3-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
