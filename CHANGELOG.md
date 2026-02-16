@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-16)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2e3e0e9`](https://github.com/stdlib-js/stdlib/commit/2e3e0e9f450c5fbcf1cab51d1d87a558afcaa93a) - **bench:** update random value generation for `stats/base/dists/f` [(#10316)](https://github.com/stdlib-js/stdlib/pull/10316) _(by Lokesh Ranjan)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Lokesh Ranjan
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
