@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-02)
+## Unreleased (2026-11-08)
+
+<section class="features">
+
+### Features
+
+-   [`93262c2`](https://github.com/stdlib-js/stdlib/commit/93262c260032936836c2eb5d20470d40e01febdc) - add C implementations for beta prime and F distribution quantile [(#15388)](https://github.com/stdlib-js/stdlib/pull/15388) [(#15410)](https://github.com/stdlib-js/stdlib/pull/15410)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`93262c2`](https://github.com/stdlib-js/stdlib/commit/93262c260032936836c2eb5d20470d40e01febdc) - **feat:** add C implementations for beta prime and F distribution quantile [(#15388)](https://github.com/stdlib-js/stdlib/pull/15388) [(#15410)](https://github.com/stdlib-js/stdlib/pull/15410) _(by Philipp Burckhardt, Karan Anand)_
 -   [`e0572d1`](https://github.com/stdlib-js/stdlib/commit/e0572d1f54b93d5438468bc271734a42aa381dcc) - **test:** adjust tolerances due to upstream changes in kernel-betaincinv _(by Athan Reines)_
 -   [`af5187f`](https://github.com/stdlib-js/stdlib/commit/af5187f613c28f0a6b50591600be586c95360393) - **test:** migrate `stats/base/dists/f/quantile` to ULP-based assertions [(#14554)](https://github.com/stdlib-js/stdlib/pull/14554) _(by Athan Reines)_
 -   [`2e3e0e9`](https://github.com/stdlib-js/stdlib/commit/2e3e0e9f450c5fbcf1cab51d1d87a558afcaa93a) - **bench:** update random value generation for `stats/base/dists/f` [(#10316)](https://github.com/stdlib-js/stdlib/pull/10316) _(by Lokesh Ranjan)_
@@ -26,10 +37,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Lokesh Ranjan
+-   Philipp Burckhardt
 
 </section>
 
